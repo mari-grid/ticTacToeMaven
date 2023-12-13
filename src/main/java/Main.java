@@ -37,15 +37,16 @@ public class Main {
         return state[n - 1][m - 1] == ' ';
     }
 
-    public static int updateGrid(char[][] state, int n, int m, int count) {
+    public static char checkXOrO(int count) {
         if (count % 2 != 0) {
-            state[n - 1][m - 1] = 'X';
-            count++;
+            return 'X';
         } else {
-            state[n - 1][m - 1] = 'O';
-            count++;
+            return 'O';
         }
-        return count;
+    }
+
+    public static void updateGrid(char[][] state, int n, int m, char symbol) {
+        state[n - 1][m - 1] = symbol;
     }
 
     public static boolean checkGrid(char[][] state) {
@@ -134,7 +135,9 @@ public class Main {
                     if (!checkNumbers(n, m)) {
                         checkNum = false;
                     } else if (isPlaceIsEmpty(state, n, m)) {
-                        count = updateGrid(state, n, m, count);
+                        char symbol = checkXOrO(count);
+                        count++;
+                        updateGrid(state, n, m, symbol);
                     } else {
                         checkNum = false;
                     }

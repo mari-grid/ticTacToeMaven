@@ -46,6 +46,39 @@ class MainTest {
         assertEquals(expectedResult, outputStreamCaptor.toString()
                 .trim());
     }
+    @Test
+    void TestCheckXOrO_whenOddCount() {
+        int count = 1;
+        char actualResult = Main.checkXOrO(count);
+        char expectedResult = 'X';
+        assertEquals(expectedResult, actualResult);
+    }
+
+    @Test
+    void TestCheckXOrO_whenEvenCount() {
+        int count = 2;
+        char actualResult = Main.checkXOrO(count);
+        char expectedResult = 'O';
+        assertEquals(expectedResult, actualResult);
+    }
+
+    @Test
+    void TestUpdateGrid_whenX() {
+        char[][] state = { { ' ', ' ', ' ' }, { ' ', ' ', ' ' }, { ' ', ' ', ' ' } };
+        Main.updateGrid(state,1, 1, 'X');
+        char actualResult = state[0][0];
+        char expectedResult = 'X';
+        assertEquals(expectedResult, actualResult);
+    }
+
+    @Test
+    void TestUpdateGrid_whenO() {
+        char[][] state = { { ' ', ' ', ' ' }, { ' ', ' ', ' ' }, { ' ', ' ', ' ' } };
+        Main.updateGrid(state,1, 1, 'O');
+        char actualResult = state[0][0];
+        char expectedResult = 'O';
+        assertEquals(expectedResult, actualResult);
+    }
 
     @Test
     void TestUpdateGrid_whenDraw() {

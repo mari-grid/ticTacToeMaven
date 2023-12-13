@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49570d77-1d37-4839-877d-6edd611358ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,41 +66,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.TestUpdateGrid_whenItHasPlaces" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.TestCheckXOrO_whenEvenCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ticTacToeJAVA" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="TestUpdateGrid_whenItHasPlaces" />
+      <option name="METHOD_NAME" value="TestCheckXOrO_whenEvenCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.TestUpdateGrid_whenOWins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.TestCheckXOrO_whenOddCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ticTacToeJAVA" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="TestUpdateGrid_whenOWins" />
+      <option name="METHOD_NAME" value="TestCheckXOrO_whenOddCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.TestUpdateGrid_whenYWins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.TestUpdateGrid_whenO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ticTacToeJAVA" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="TestUpdateGrid_whenYWins" />
+      <option name="METHOD_NAME" value="TestUpdateGrid_whenO" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.printGrid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.TestUpdateGrid_whenX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ticTacToeJAVA" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="printGrid" />
+      <option name="METHOD_NAME" value="TestUpdateGrid_whenX" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,10 +109,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.TestUpdateGrid_whenItHasPlaces" />
-        <item itemvalue="JUnit.MainTest.TestUpdateGrid_whenOWins" />
-        <item itemvalue="JUnit.MainTest.TestUpdateGrid_whenYWins" />
-        <item itemvalue="JUnit.MainTest.printGrid" />
+        <item itemvalue="JUnit.MainTest.TestUpdateGrid_whenO" />
+        <item itemvalue="JUnit.MainTest.TestUpdateGrid_whenX" />
+        <item itemvalue="JUnit.MainTest.TestCheckXOrO_whenEvenCount" />
+        <item itemvalue="JUnit.MainTest.TestCheckXOrO_whenOddCount" />
       </list>
     </recent_temporary>
   </component>
@@ -131,6 +125,18 @@
       <option name="presentableId" value="Default" />
       <updated>1702411441532</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated">
+      <created>1702414475181</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702414475181</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
   </component>
 </project>
