@@ -109,16 +109,13 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         char[][] state = new char[3][3];
-
-        createEmptyGrid(state);
-        printGrid(state);
-
         boolean checkPlaces = true;
         boolean checkNum = false;
         int count = 1;
 
-
-
+        createEmptyGrid(state);
+        printGrid(state);
+        
         while (checkPlaces) {
 
             while (!checkNum) {
